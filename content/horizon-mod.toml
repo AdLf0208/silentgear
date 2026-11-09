@@ -1,0 +1,10 @@
+# Targeted carry of Silent Gear 4.2.1.1 for slice 1 (the pickaxe).
+# Full carry: ports/_shared/carry-work/silentgear/mods/silentgear/carry
+# (2952 files, 314 item definitions; provenance in ../_shared/carry-work/silentgear/SOURCE.md).
+# Licence: MIT License
+id = "silentgear"
+name = "Silent Gear"
+version = "4.2.1.1"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
