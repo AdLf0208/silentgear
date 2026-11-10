@@ -1,0 +1,39 @@
+id = "silentgear"
+kind = "native-mod"
+name = "Silent Gear"
+summary = "Assemble a pickaxe from a blueprint, head and rod; its stats fold the material properties."
+description = """
+A port of [Silent Gear](https://github.com/SilentChaos512/Silent-Gear) by
+SilentChaos512 for Horizon. This first slice is gear crafting and the tool stat
+block.
+
+- `/silentgear assemble pickaxe <head> <rod>` assembles a pickaxe from a carried
+  blueprint, head and rod; the three are taken from the inventory (then the off
+  hand) and consumed.
+- The pickaxe's stats fold each material's properties with Silent Gear's own
+  maths — weighted average, max, multiply-base, multiply-total and add, clamped —
+  and those numbers drive the vanilla mining it performs.
+- The material table is the jar's own data for iron, wood, stone, diamond, gold,
+  flint and the empty netherite entry.
+
+The other tools and armour, traits, grading, salvage, compound parts and recipe
+types, the blueprint book and the gear-slot system are later slices. MIT —
+original copyright and licence notices are kept in the port repository; see
+LICENSE and LICENSE-NOTICE.md there.
+"""
+authors = ["SilentChaos512", "AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "MIT"
+source = "https://github.com/AdLf0208/silentgear"
+icon = "icons/silentgear.png"
+categories = ["equipment", "game-mechanics"]
+tags = ["port", "tools", "gear", "crafting"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-10"
+game = "26.3"
+file = "silentgear.hnmod"
+sha256 = "59e43deeb731f2f788046a9cdd731c554a228fc80a9294c7f244d2d45b4d56b8"
+changelog = "First release"

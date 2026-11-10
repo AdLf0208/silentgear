@@ -1,0 +1,16 @@
+[package]
+name = "horizon-silentgear"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Silent Gear for Horizon: assemble a pickaxe from parts with material stats"
+# Ported from: Silent Gear 4.2.1.1 (SilentChaos512/Silent-Gear, MIT),
+# Minecraft Java 1.21.1 NeoForge. Local-only port until publishing is approved.
+
+[lib]
+path = "mixins/silentgear/runtime.rs"
+
+[workspace]
+members = ["tools/audit"]
+resolver = "2"

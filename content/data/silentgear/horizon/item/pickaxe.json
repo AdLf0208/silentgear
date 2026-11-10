@@ -1,0 +1,8 @@
+{
+  "template": "minecraft:iron_pickaxe",
+  "components": {
+    "minecraft:item_model": "silentgear:pickaxe",
+    "minecraft:item_name": { "translate": "item.silentgear.pickaxe" },
+    "minecraft:repairable": { "items": "#minecraft:iron_tool_materials" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "category": "misc",
+  "group": "silentgear:blueprints/pickaxe",
+  "key": {
+    "#": "#silentgear:blueprint_paper",
+    "/": "#c:rods/wooden"
+  },
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "result": {
+    "count": 1,
+    "id": "silentgear:pickaxe_blueprint"
+  },
+  "type": "minecraft:crafting_shaped"
+}

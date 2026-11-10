@@ -1,0 +1,11 @@
+{
+  "title": "Silent Gear",
+  "icon": "silentgear:pickaxe",
+  "items": [
+    "silentgear:pickaxe",
+    "silentgear:pickaxe_head",
+    "silentgear:rod",
+    "silentgear:pickaxe_blueprint",
+    "silentgear:axe_head"
+  ]
+}
